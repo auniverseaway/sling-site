@@ -1,0 +1,15 @@
+.Panel {
+    padding: 68px 0;
+
+    &.Panel--yellow {
+        background: #FFFBEF;
+    }
+
+    &.Panel--lightGray {
+        background: #F5F5F5;
+    }
+
+    &.Panel--footer {
+        padding: 34px 0;
+    }
+}

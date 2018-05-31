@@ -1,0 +1,30 @@
+.Header--navigation {
+    background: rgba(176,226,243,.80);
+}
+
+.Header--navigationList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @media (min-width: 48em) {
+        margin: 0 -1em;
+    }
+}
+
+.Header--navigationListItem {
+    display: inline-block;
+}
+
+.Header--navigationLink {
+    display: block;
+    line-height: 68px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 2em;
+
+    &:hover {
+        background: rgba(255,255,255,.5);
+        text-decoration: none;
+    }
+}

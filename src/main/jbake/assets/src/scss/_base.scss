@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Sans;
+    line-height: 2em;
+    font-weight: 300;
+    color: #4E4E4E;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.SlingRule {
+    background: url('../../img/gradient-horizontal.jpg');
+    background-size: cover;
+    height: 10px;
+}
