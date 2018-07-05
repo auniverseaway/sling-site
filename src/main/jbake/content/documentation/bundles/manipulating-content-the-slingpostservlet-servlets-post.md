@@ -8,6 +8,8 @@ tags=servlets,postservlet
 
 ## Multiple Ways to Modify Content
 
+[manipulating-content-the-slingpostservlet-servlets-post][]
+
 As always in life there is more than one way to do it. So to modify content in a JCR repository underlying Sling, you have multiple options, two of which are WebDAV and the Sling default POST Servlet also called the *SlingPostServlet*. This page is about how you can modify - create, modify, copy, move, delete, import - content through the *SlingPostServlet*. In addition it also explains how to extend the SlingPostServlet with new operations.
 
 
